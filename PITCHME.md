@@ -15,7 +15,7 @@ A Survey of MP Code Around the Web
 
 @[11-13](Uses Jaci Pathfinder library)
 @[17](Implemented as WPILIB Command...useful)
-@[5-8]
+@[27-31](Ticks converted to meters...later converted into inches...<p>Not necessary)
 @[10-16]
 @[18-24]
 
