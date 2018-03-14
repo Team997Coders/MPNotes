@@ -11,10 +11,6 @@ A Survey of MP Code Around the Web
 - Feeds trajectory points to motors using Command subsystem
 - Yanked from [Chief Delphi](https://www.chiefdelphi.com/forums/showthread.php?p=1745136 "Robot Code Never Starts")
 
----
-
-#### Team 135: DriveAlongProfile.java
-
 +++?code=DriveAlongProfile.java&lang=java
 
 @[1-3]
