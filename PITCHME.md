@@ -13,9 +13,9 @@ A Survey of MP Code Around the Web
 
 ---
 
-#### Team 135: MotionPath.java
+#### Team 135: DriveAlongProfile.java
 
-+++?code=src/javascript/config.js&lang=java
++++?code=DriveAlongProfile.java&lang=java
 
 @[1-3]
 @[5-8]
