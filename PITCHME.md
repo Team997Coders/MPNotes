@@ -20,7 +20,9 @@ A Survey of MP Code Around the Web
 @[33](Normalizes power within setPoint range of -1..1)
 @[35-39](Trajectory point feedback PID constants...note large D dampending...hmmm)
 @[45-49](Heading correction PID constants)
-@[53-54](Timer simply used to timout command)
+@[53-54](Timer simply used to timeout command)
+@[58](Class only takes waypoints...another construction could take an already computed trajectory)
+@[83]()
 
 
 ###### Team 135: [DriveAlongProfile.java](https://github.com/Team997Coders/MPNotes/blob/master/DriveAlongProfile.java)
