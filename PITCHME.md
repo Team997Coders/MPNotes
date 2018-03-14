@@ -3,3 +3,10 @@
 A Survey of MP Code Around the Web
 
 ---
+
+### Team 135 Penn Robotics
+
+- Uses Pathfinder Library
+- Gens Path/Trajectory on the fly (with limited success)
+- Feeds trajectory points to motors using Command subsystem
+
