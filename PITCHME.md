@@ -20,9 +20,28 @@ A Survey of MP Code Around the Web
 @[33](Normalizes power within setPoint range of -1..1)
 @[35-39](Trajectory point feedback PID constants...note large D dampending...hmmm)
 @[45-49](Heading correction PID constants)
-@[53-54](Timer simply used to timeout command)
-@[58](Class only takes waypoints...another construction could take an already computed trajectory)
-@[83]()
-
+@[53-54](Timer simply used to timeout command...5ms seems like way too small default)
+@[58](Class only takes waypoints...another constructor could take an already computed trajectory)
+@[58](You could also do a straight line constructor to computes on the fly)
+@[83](Trajetory generated on the fly...however it can take many (10's) seconds to complete...ouch!)
+@[85-87](Tank modifier creates separate trajectory stream for each side of drive train)
+@[92-93](Follower class from Jaci...computes motor output at point in time given trajectory feedforward and PID feedback)
+@[98](Sets up follower and angle controller config values)
+@[132-134](THE MEAT! Get the values to apply to motors at trajectory point time.  There is a problem...)
+@[132-134](WIPLIB command scheduler runs every 20ms...timestep for trajectory calced for 50ms!)
+@[138-147](Timeout the command if we are finished or take too long.  Good idea!)
+@[149-150](Correct heading)
 
 ###### Team 135: [DriveAlongProfile.java](https://github.com/Team997Coders/MPNotes/blob/master/DriveAlongProfile.java)
+
+---
+
+### Team 135 Penn Robotics
+#### Summary
+
+- Command implementation attractive...simple
+- No additional threads to synchronize
+- Must sync quantized timing of trajectory to scheduler timing (20ms)
+- Timing drift of scheduler will be crummy because we are not running a real-time operating system
+- Might work well enough?
+
