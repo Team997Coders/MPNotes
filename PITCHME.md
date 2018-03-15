@@ -77,6 +77,16 @@
 
 ---
 
+### Team 217 Thunder Chickens
+#### Summary
+
+- Needs Command wrapper implementation
+- Uses Talon to precisely time feeding MP to motors
+- Notifier may "jitter" but not critical...only keeps low buffer full
+- Can't use gyro for angle correction (easily)...measure wheels precisely
+
+---
+
 ## March 16-17 Plan 
 
 - Lay out carpet in library
