@@ -76,12 +76,12 @@
   - Kv, Ka, Kj
 - Plot a path and generate CSV trajectories to scale (LHS, RHS -> near side, far side) with appropriate timestep (20ms for Command fed)
 - Insure that path does not violate robot constraints and plots are continuous
-- Integrate Floyd's code and/or create code to read in CSV and create and navigate a Trajectory data structure
 
 ---
 
 ## March 16-17 Plan (cont)
 
+- Integrate Floyd's code and/or create code to read in CSV and create and navigate a Trajectory data structure
 - Write the MP drive class
 - Write code to log data from driving so that we can plot results for debugging purposes
 - Integrate, test, rinse, repeat
