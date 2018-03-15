@@ -57,6 +57,12 @@
 - Called from a Command via execute() to keep buffer topped up
 - Yanked from [CRE Examples](https://github.com/CrossTheRoadElec/Phoenix-Examples-Languages/blob/master/Java/MotionProfile/src/org/usfirst/frc/team217/robot/MotionProfileExample.java "MotionProfileExample.java")
 
++++?code=MotionProfileExample.java&lang=java
+
+@[27-28, 32-33](Uses [CRE Phoenix](https://github.com/CrossTheRoadElec/Phoenix-frc-lib) library)
+
+###### Team 217: [MotionProfileExample.java](https://github.com/Team997Coders/MPNotes/blob/master/MotionProfileExample.java)
+
 ---
 
 ## March 16-17 Plan 
