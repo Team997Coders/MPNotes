@@ -13,7 +13,7 @@ A Survey of MP Code Around the Web
 
 +++?code=DriveAlongProfile.java&lang=java
 
-@[11-13](Uses Jaci Pathfinder library)
+@[11-13](Uses [Jaci Pathfinder](https://github.com/JacisNonsense/Pathfinder) library)
 @[17](Implemented as WPILIB Command...useful)
 @[28](50ms trajectory timing)
 @[27-31](Ticks converted to meters...later converted into inches...ich!)
