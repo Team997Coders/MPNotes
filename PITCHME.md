@@ -49,8 +49,8 @@ A Survey of MP Code Around the Web
 
 ## March 16-17 Plan 
 
-* Lay out carpet in library
-** Tape off back line, switch edges, and scale corners for half of field
+.Lay out carpet in library
+..Tape off back line, switch edges, and scale corners for half of field
 * Decide on MP implementation approach
 ** Command fed
 ** Talon buffer fed
