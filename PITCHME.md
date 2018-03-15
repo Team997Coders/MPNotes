@@ -60,6 +60,18 @@
 +++?code=MotionProfileExample.java&lang=java
 
 @[27-28, 32-33](Uses [CRE Phoenix](https://github.com/CrossTheRoadElec/Phoenix-frc-lib) library)
+@[52](Only one Talon processed per instance...would need instances for L/R)
+@[57](State machine implemented...always use enums to define valid states)
+@[57](Make a state transition diagram!)
+@[66](Timeouts used to keep state machine from hanging...good practice)
+@[83](Defines min number of points required to be in Talon buffer before starting)
+@[99-102](Notifier runs as Java thread and schedules handler to run when FPGA interrupts)
+@[99-102](This runnable moves trajectory points from the Talon "top" buffer to the "low" buffer)
+@[117-118](Stream points from top to low buffer at twice rate of MP point durations)
+@[147](Called from Command execute()...long routine but does not do much...action happens within Talon)
+@[276-279](Buffer underruns must be carefully monitored and corrected if detected)
+@[295-299](Spew trajectory points from loaded external source to Talon "top" buffer)
+@[314](Bad practice...author does not check return code...only approx 2048 points allowed in top buffer)
 
 ###### Team 217: [MotionProfileExample.java](https://github.com/Team997Coders/MPNotes/blob/master/MotionProfileExample.java)
 
