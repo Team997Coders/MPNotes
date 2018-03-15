@@ -64,8 +64,9 @@
 - Lay out carpet in library
   - Tape off back line, switch edges, and scale corners for half of field
 - Decide on MP implementation approach
-  - Command fed
-- Talon buffer fed
+  - Command fed (simple, maybe inaccurate)
+  - Talon buffer fed (simple, accurate, no angle control)
+  - Thread fed (complex, if you want angle control)
 - Obtain robot constants from design (and/or experimentally derive)
   - Kv, Ka, Kj
 
