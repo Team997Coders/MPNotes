@@ -65,10 +65,10 @@ A Survey of MP Code Around the Web
 - Insure that path does not violate robot constraints and plots are continuous
 - Integrate Floyd's code and/or create code to read in CSV and create and navigate a Trajectory data structure
 - Write the MP drive class
-- Write code to log data from driving so that we can plot results for debugging purposes
 
 ---
 
 ## March 16-17 Plan (cont, again)
+- Write code to log data from driving so that we can plot results for debugging purposes
 - Integrate, test, rinse, repeat
 - Write a method to graph results.
