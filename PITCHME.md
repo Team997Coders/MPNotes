@@ -68,7 +68,7 @@ A Survey of MP Code Around the Web
 
 ---
 
-## March 16-17 Plan (cont, again)
+## March 16-17 Plan (cont)
 - Write code to log data from driving so that we can plot results for debugging purposes
 - Integrate, test, rinse, repeat
 - Write a method to graph results.
