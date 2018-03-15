@@ -45,7 +45,7 @@
 - Must sync quantized timing of trajectory to scheduler timing (20ms)
 - Uses gyro for angle correction
 - Timing drift of scheduler will be crummy because we are not running a real-time operating system
-- Might work well enough?
+- Might work well enough...replace with a Notifier as control loop instead of using Command scheduler?
 
 ---
 
