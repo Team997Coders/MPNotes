@@ -1,6 +1,9 @@
-# Motion Profiling Code Survey 
+# 997 Motion Profiling Code Survey 
 
-A Survey of MP Code Around the Web
+## Code Tour
+## Plan
+
+A Path Forward
 
 ---
 
