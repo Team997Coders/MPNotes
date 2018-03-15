@@ -20,7 +20,7 @@ A Survey of MP Code Around the Web
 @[33](Normalizes power within setPoint range of -1..1)
 @[35-39](Trajectory point feedback PID constants...note large D dampending...hmmm)
 @[45-49](Heading correction PID constants)
-@[53-54](Timer simply used to timeout command...5ms seems like way too small default)
+@[53-54](Timer simply used to timeout command...5ms seems like too small default)
 @[58](Class only takes waypoints...another constructor could take an already computed trajectory)
 @[58](You could also do a straight line constructor to computes on the fly)
 @[83](Trajetory generated on the fly...however it can take many (10's) seconds to complete...ouch!)
