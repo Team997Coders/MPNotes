@@ -1,9 +1,7 @@
-# 997 Motion Profiling Code Survey 
+# 997 Motion Profiling
 
-## Code Tour
-## Plan
-
-A Path Forward
+### A Code Tour
+### and a Plan
 
 ---
 
