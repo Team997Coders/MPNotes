@@ -45,3 +45,21 @@ A Survey of MP Code Around the Web
 - Timing drift of scheduler will be crummy because we are not running a real-time operating system
 - Might work well enough?
 
+---
+
+## March 16-17 Plan 
+
+- Lay out carpet in library
+-- Tape off back line, switch edges, and scale corners for half of field
+- Decide on MP implementation approach
+-- Command fed
+-- Talon buffer fed
+- Obtain robot constants from design (and/or experimentally derive)
+-- Kv, Ka, Kj
+- Plot a path and generate CSV trajectories to scale (LHS, RHS -> near side, far side) with appropriate timestep (20ms for Command fed)
+- Insure that path does not violate robot constraints and plots are continuous
+- Integrate Floyd's code and/or create code to read in CSV and create and navigate a Trajectory data structure
+- Write the MP drive class
+- Write code to log data from driving so that we can plot results for debugging purposes
+- Integrate, test, rinse, repeat
+- Write a method to graph results.
