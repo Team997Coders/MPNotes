@@ -24,7 +24,7 @@
 
 @[11-13](Uses [Jaci Pathfinder](https://github.com/JacisNonsense/Pathfinder) library)
 @[17](Implemented as WPILIB Command...useful)
-@[28](50ms trajectory timing...keep reading...)
+@[28](50ms trajectory timing...hmm...keep reading...)
 @[27-31](Ticks converted to meters...later converted into inches...ich!)
 @[33](Normalizes power within setPoint range of -1..1)
 @[35-39](Trajectory point feedback PID constants...note large D dampending...hmmm)
