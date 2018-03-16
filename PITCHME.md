@@ -128,3 +128,9 @@
 ## References
 
 [Talon Motion Profiling](https://www.ctr-electronics.com/downloads/pdf/Talon%20SRX%20Motion%20Profile%20Reference%20Manual.pdf)
+[FRC Java Programming](http://roxbotix.org/FRC_Java_Programming.pdf)
+[Motion Profile Generator](https://github.com/vannaka/Motion_Profile_Generator)
+[Nifty GitPitch Presentation Tech](https://github.com/gitpitch/gitpitch)
+[FRC Control System](https://wpilib.screenstepslive.com/s/currentCS/m/java/l/599745-scheduling-commands)
+[Elegant Example Not Discussed](https://github.com/FRC3238/2018Robot/blob/269d2b19aa8c681164a7d2f77159aa11e1208842/src/frc/team3238/subsystems/Chassis.java)
+[Path Planner](https://github.com/KHEngineering/SmoothPathPlanner)
