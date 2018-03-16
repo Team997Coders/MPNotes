@@ -5,6 +5,14 @@
 
 ---
 
+### Two Examples We Will Explore
+
+- Command-based example directly handles the MP following work
+- Talon-based example lets the Talon do the MP following work
+- And then finally, we have a plan...
+
+---
+
 ### Team 135 Penn Robotics
 
 - Uses Pathfinder Library
@@ -114,3 +122,9 @@
 - Write code to log data from driving so that we can plot results for debugging purposes
 - Integrate, test, rinse, repeat
 - Write a method to graph results.
+
+---
+
+## References
+
+[Talon Motion Profiling](https://www.ctr-electronics.com/downloads/pdf/Talon%20SRX%20Motion%20Profile%20Reference%20Manual.pdf)
